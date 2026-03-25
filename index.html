@@ -6,13 +6,13 @@
   <title>Natasha Portfolio</title>
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="./css/styel.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
@@ -27,17 +27,17 @@
   </nav>
 </header>
 
-<!-- Hero -->
+<!-- Hero Section -->
 <section class="main fade-up">
   <div>
     <h2>Hello, I'm Natasha <br><span>Front-End Developer</span></h2>
     <h3>Crafting responsive, user-friendly websites.</h3>
     <a href="#projects" class="main-btn">View My Projects</a>
-    <a href="https://www.fiverr.com/natash96" class="main-btn">Hire Me</a>
+    <a href="https://www.fiverr.com/natash96" class="main-btn" target="_blank">Hire Me</a>
 
     <div class="social-icons">
       <a href="https://github.com/natashaatalah85-dotcom?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://khamsat.com/user/natasha_atala/services" target="_blank"><i class="fa-solid fa-5"></i></a>
+      <a href="https://www.fiverr.com/natash96" target="_blank"><i class="fab fa-fiverr"></i></a>
       <a href="https://mostaql.com/u/Natasha_Atalah" target="_blank"><i class="fa fa-briefcase"></i></a>
     </div>
   </div>
@@ -54,7 +54,7 @@
 </section>
 
 <!-- Skills -->
-<section class="cards" id="skills">
+<section class="cards fade-up" id="skills">
   <h2 class="title fade-up">My Skills</h2>
   <div class="content">
     <div class="card fade-up">
@@ -65,7 +65,6 @@
         <span class="arrow">→</span>
       </div>
     </div>
-
     <div class="card fade-up">
       <div class="icon"><i class="fa fa-paint-brush"></i></div>
       <div class="info">
@@ -74,7 +73,6 @@
         <span class="arrow">→</span>
       </div>
     </div>
-
     <div class="card fade-up">
       <div class="icon"><i class="fab fa-js"></i></div>
       <div class="info">
@@ -87,11 +85,10 @@
 </section>
 
 <!-- Projects -->
-<section class="projects" id="projects">
+<section class="projects fade-up" id="projects">
   <h2 class="title fade-up">Practice Projects</h2>
   <div class="content">
 
-    
     <div class="card fade-up">
       <img src="images/project1.png" alt="Landing Page">
       <div class="project-info">
@@ -112,7 +109,6 @@
       </div>
     </div>
 
-  
     <div class="card fade-up">
       <img src="images/project3.png" alt="Menu Website">
       <div class="project-info">
@@ -123,7 +119,6 @@
       </div>
     </div>
 
-    
     <div class="card fade-up">
       <img src="images/project4.png" alt="VOID-Store Website">
       <div class="project-info">
@@ -146,7 +141,6 @@
       <h3>Email</h3>
       <p><a href="mailto:natashaatalah85@email.com">natashaatalah85@email.com</a></p>
     </div>
-    
     <div class="contact-card fade-up">
       <i class="fa fa-briefcase"></i>
       <h3>Fiverr</h3>
@@ -160,7 +154,7 @@
   <p>© 2026 Natasha | Front-End Developer</p>
 </footer>
 
-<!-- Scroll Animation Script -->
+<!-- Scroll Animation -->
 <script>
 const elements = document.querySelectorAll('.fade-up');
 const observer = new IntersectionObserver(entries => {
